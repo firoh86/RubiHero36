@@ -56,7 +56,7 @@ Los teclados que referencian éste, son: mikefive y cornekeyboard, ZMK como prá
 
 ## Licencia
 
-Éste proyecto está licenciado, puedes leer la licencia en: README.md
+Éste proyecto está licenciado, puedes leer la licencia en: LICENSE.md
 test
 
 ---
