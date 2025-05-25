@@ -16,7 +16,7 @@ el shape está basado en el mikefive, con la particularidad de las alas rotadas 
 - **Switches soportados:** Mx hotswap 3,5 pines.
 - **Materiales:** PCB, carcasa de resina impresa, compatible para cnc, PC o aluminio.
 - **Conectividad:** USB-C, Bluetooth, inalámbrico.
-- **Retroiluminación:**  no tiene.
+- **Retroiluminación:** no tiene.
 - **Firmware:** ZMK
 
 ## Galería
@@ -27,22 +27,33 @@ Previews del teclado:
 ![Vista lateral](ruta/a/imagen3.jpg)
 
 ## Layout
-
-Incluye una imagen o diagrama del layout del teclado:
+A continuación muestras del layout de éste teclado:
 
 [![Layout](ruta/a/layout.png)](https://imgur.com/a/yv3qFPl)
 
-[{a:7},"","","","","","",{x:3},"","","","","",""],
-["","","","","","",{x:3},"","","","","",""],
-["","","","","","",{x:3},"","","","","",""],
-[{x:4},"","","",{x:1},"","",""]
-
+```json
+[
+  [{ "a": 7 }, "", "", "", "", "", "", { "x": 3 }, "", "", "", "", "", ""],
+  ["", "", "", "", "", "", { "x": 3 }, "", "", "", "", "", ""],
+  ["", "", "", "", "", "", { "x": 3 }, "", "", "", "", "", ""],
+  [{ "x": 4 }, "", "", "", { "x": 1 }, "", "", ""]
+]
+```
 
 ## Instrucciones de Armado (Opcional)
 
-1. Lista de piezas necesarias.
-2. Pasos para armar el teclado.
-3. Consejos para soldar o montar switches/keycaps.
+1. Componentes necesarios para montar éste teclado:
+- PCB Hero36 como base.
+- Nice!Nano V2 como shield.
+- 36x Choc V1-V2 switches.
+- 36x Keycaps para Choc.
+- Cable USB-C para conectarlo al PC.
+- Impresora 3d para imprimir el case o un servicio cnc para ordenar la case.
+- tornillos (xM2-3).
+
+
+1. Pasos para armar el teclado.
+2. Consejos para soldar o montar switches/keycaps.
 
 ## Instalación y Configuración
 
@@ -56,9 +67,4 @@ Los teclados que referencian éste, son: mikefive y cornekeyboard, ZMK como prá
 
 ## Licencia
 
-Éste proyecto está licenciado, puedes leer la licencia en: LICENSE.md
-test
-
----
-
-
+## Éste proyecto está licenciado, lee la [licencia aquí](LICENSE.md).
